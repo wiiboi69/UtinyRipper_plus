@@ -245,7 +245,20 @@ namespace uTinyRipper.Converters.Script.Mono
 			}
 
 			int index = name.IndexOf('`');
+#if !use_name_len
+			StringBuilder sb;
+
+			if (index < 0)
+			{
+				sb = new StringBuilder(name, 0, name.Length, name.Length + 50);
+			}
+			else
+			{
+				sb = new StringBuilder(name, 0, index, index + 50);
+			}
+#else
 			StringBuilder sb = new StringBuilder(genericType.Name, 0, index, 50 + index);
+#endif
 			sb.Append('<');
 			for (int i = genericArguments.Count - argumentCount; i < genericArguments.Count; i++)
 			{
