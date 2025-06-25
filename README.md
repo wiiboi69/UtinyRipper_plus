@@ -1,14 +1,9 @@
-# uTinyRipper
-[![Download uTinyRipper](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/utinyripper/files)
+# uTinyRipper_plus
+[![Download uTinyRipper](https://a.fsdn.com/con/app/sf-download-button)](https://github.com/wiiboi69/UtinyRipper_plus/releases)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/yd78hqp83f7vjkwb?svg=true)](https://ci.appveyor.com/project/mafaca/utinyripper)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/UtinyRipper/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+UtinyRipper_plus is a continuous of UTinyRRipper which is a tool for extracting assets from serialized files (*CAB-*\*, *\*.assets*, *\*.sharedAssets*, etc.) and assets bundles (*\*.unity3d*, *\*.assetbundle*, etc.) and converting them into native Engine format.
 
-uTinyRipper is a tool for extracting assets from serialized files (*CAB-*\*, *\*.assets*, *\*.sharedAssets*, etc.) and assets bundles (*\*.unity3d*, *\*.assetbundle*, etc.) and converting them into native Engine format.
-
-Important note: work on this project has been suspended. The Author is going to restart it from scratch, please redirect development and focus on other things. So don't waste your time on PRs, propositions or complex issues. The only exception is bug fixes.
-
-Supported versions: 1.x to 2019.x (since development is suspended, 2020.x or greater won't be supported)
+Supported versions: 1.x to 2019.x, 2020.x or greater won't be supported yet
 
 ## Export features
 * Scenes
