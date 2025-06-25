@@ -1,7 +1,7 @@
 # uTinyRipper_plus
 [![Download uTinyRipper](https://a.fsdn.com/con/app/sf-download-button)](https://github.com/wiiboi69/UtinyRipper_plus/releases)
 
-UtinyRipper_plus is a continuous of UTinyRRipper which is a tool for extracting assets from serialized files (*CAB-*\*, *\*.assets*, *\*.sharedAssets*, etc.) and assets bundles (*\*.unity3d*, *\*.assetbundle*, etc.) and converting them into native Engine format.
+UtinyRipper_plus is a continuous of UTinyRipper which is a tool for extracting assets from serialized files (*CAB-*\*, *\*.assets*, *\*.sharedAssets*, etc.) and assets bundles (*\*.unity3d*, *\*.assetbundle*, etc.) and converting them into native Engine format.
 
 Supported versions: 1.x to 2019.x, 2020.x or greater won't be supported yet
 
